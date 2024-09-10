@@ -4,7 +4,7 @@
   "serialNumber" : "urn:uuid:fbcd5c03-e02b-38b4-916b-192d1dc413c3",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2024-06-21T12:17:04Z",
+    "timestamp" : "2024-09-10T00:22:27Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -71,41 +71,41 @@
       "publisher" : "PMD",
       "group" : "net.sourceforge.pmd",
       "name" : "pmd-java",
-      "version" : "7.2.0",
+      "version" : "7.5.0",
       "description" : "PMD is an extensible multilanguage static code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It's mainly concerned with Java and Apex, but supports 16 other languages. It comes with 400+ built-in rules. It can be extended with custom rules. It uses JavaCC and Antlr to parse source files into abstract syntax trees (AST) and runs rules against them to find violations. Rules can be written in Java or using a XPath query. Currently, PMD supports Java, JavaScript, Salesforce.com Apex and Visualforce, Kotlin, Swift, Modelica, PLSQL, Apache Velocity, JSP, WSDL, Maven POM, HTML, XML and XSL. Scala is supported, but there are currently no Scala rules available. Additionally, it includes CPD, the copy-paste-detector. CPD finds duplicated code in Coco, C/C++, C#, Dart, Fortran, Gherkin, Go, Groovy, HTML, Java, JavaScript, JSP, Julia, Kotlin, Lua, Matlab, Modelica, Objective-C, Perl, PHP, PLSQL, Python, Ruby, Salesforce.com Apex and Visualforce, Scala, Swift, T-SQL, Typescript, Apache Velocity, WSDL, XML and XSL.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "dae930b9592a613f40f28b3d3272e745"
+          "content" : "0aae620d2306b26aaaa3ad475ef104dc"
         },
         {
           "alg" : "SHA-1",
-          "content" : "550d7733865895c58907e44334dddff1caaeafde"
+          "content" : "7ad8f0574dc5862b055aee07cc2579aeec8f397a"
         },
         {
           "alg" : "SHA-256",
-          "content" : "05337a600d4d4c11dbf4f128cbd1161e9035ccc3a777d4cd8c0af2d83170431b"
+          "content" : "d29836778ad84da59e683dec464d96bf2f0e5b2374f4bde1544d9e3807035b55"
         },
         {
           "alg" : "SHA-512",
-          "content" : "e59dfb29012b4b1f9387d28b0e2f0209b5b8d4c4fb8a7ec1b37f3c6bb62e18832f81ac6611408922f2e9c634761eda40a0b0c51ec79ec735d0d39107207775f3"
+          "content" : "e54fa4df611036c2168388ba5ec226c7cb213712283319aea1d2f12ebf02d729406ae7ee86b9c298e08f14ff51e920f6ffc4421120b9881499e032e219e7c298"
         },
         {
           "alg" : "SHA-384",
-          "content" : "bead3a91d5affdd330ac664f4307afac60598cbb4abc62f06f03472aa0e437705a4b7e101dd7fc472efabaa40da7ba81"
+          "content" : "a3ad9c4fade3a0fc8403cb0e34b8f087e6cc23029093e8d6dbb6ba15be8a45baf4808d4cd752baac8f66504bddf4833c"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "7ef3885ef74d0e667d6dec481194ad3f5c28cdfe9e98b2de22240deedbbae82b7a8c21b339753c61888a8ea769415ba4"
+          "content" : "742e627cc0da2268f1d0a778463f5b907b949aaba754291d7e6533940e46a188883fdb8d73a50b3a03b935b33cb41c64"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "ad2c24f6b0acd16f794f07185b1b0628beb87cbc35e569d5d2810cbe2131ca4f"
+          "content" : "3cc062b37d19073b54868f494cc760e729fe146a644da38194e721fb84040ebe"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "250d4f52310d9f44bdf8f8a034201c71bd76472631c26a163fb45ff9be2ed2da2599d7bdb1e944dd5cad9147193ac7d35f7e6ee5485238b50cd3464df97090fd"
+          "content" : "f9a579efe14af2bac914fcd64e5895b23af334251d5dd84acb757e2090652e85c83a545f4f75ee34e63e63def0e6d62d5d3ab657551afbcb551da5847b5234f9"
         }
       ],
       "licenses" : [
@@ -116,7 +116,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/net.sourceforge.pmd/pmd-java@7.2.0?type=jar",
+      "purl" : "pkg:maven/net.sourceforge.pmd/pmd-java@7.5.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -144,47 +144,47 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/net.sourceforge.pmd/pmd-java@7.2.0?type=jar"
+      "bom-ref" : "pkg:maven/net.sourceforge.pmd/pmd-java@7.5.0?type=jar"
     },
     {
       "publisher" : "PMD",
       "group" : "net.sourceforge.pmd",
       "name" : "pmd-core",
-      "version" : "7.2.0",
+      "version" : "7.5.0",
       "description" : "PMD is an extensible multilanguage static code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It's mainly concerned with Java and Apex, but supports 16 other languages. It comes with 400+ built-in rules. It can be extended with custom rules. It uses JavaCC and Antlr to parse source files into abstract syntax trees (AST) and runs rules against them to find violations. Rules can be written in Java or using a XPath query. Currently, PMD supports Java, JavaScript, Salesforce.com Apex and Visualforce, Kotlin, Swift, Modelica, PLSQL, Apache Velocity, JSP, WSDL, Maven POM, HTML, XML and XSL. Scala is supported, but there are currently no Scala rules available. Additionally, it includes CPD, the copy-paste-detector. CPD finds duplicated code in Coco, C/C++, C#, Dart, Fortran, Gherkin, Go, Groovy, HTML, Java, JavaScript, JSP, Julia, Kotlin, Lua, Matlab, Modelica, Objective-C, Perl, PHP, PLSQL, Python, Ruby, Salesforce.com Apex and Visualforce, Scala, Swift, T-SQL, Typescript, Apache Velocity, WSDL, XML and XSL.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "13d728e23739ae2e9d5509651e994b6b"
+          "content" : "0b631a06c8d802fabcb44f902591f721"
         },
         {
           "alg" : "SHA-1",
-          "content" : "6ce3aa2d65cfa3538a1546877f2095edd460038e"
+          "content" : "d98b593da6eb7b135bcea4ff2e612f70b3724557"
         },
         {
           "alg" : "SHA-256",
-          "content" : "3896a043e28dfcf06e59cdc7760b938eb72fc574bb955b82227b2f9019733e68"
+          "content" : "d00859fbab4c26f3d6f5532680e4522cb8ecb217c0a3142efb2c91e5474ab5f1"
         },
         {
           "alg" : "SHA-512",
-          "content" : "bb0f1382dadd1451a85b55a01f77fe0e7c6986dff98193d1b30a01893e552c078474baf7c3d91325a3f36e15fdc53c3aa6c137e98f7f47b0c6e38b1f9ef5f815"
+          "content" : "6167c1eccd994382d0a9a2d6aab588bef42028e81316cd89a418d58ab8eac4a244561c0a301a31e90f4670c950fedbb198e865cead660f6d507573d149fff3be"
         },
         {
           "alg" : "SHA-384",
-          "content" : "c580a63213f7179fd1eda1f2b6ef1a00f71e7d07963637806de1974deba32810b9bf66ba73bc93bda06023d66ff17e80"
+          "content" : "3a793ae4a3a80d2f00567e1c8014088b43cd265eb1620f160df3916920c6b31692af31a808bae67617eb55b715a2618f"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "0c7533967a56e039006bd031dbd379a3ee12ad2d56bd133a97465793c0b45b280bafe255db9eb96fbc7dfa9e2d4c8376"
+          "content" : "453d166cf22806b9c7afef8dc7c20172ccf4af1e6ca9e8c6daa6e8da489abb3bfb8bdf0796f8d226bf33a2c36068499b"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "70c4bdd3bee46f3cbc84d21ee25b93ad800b8739cca66301a59f01d1c85f5103"
+          "content" : "e8431600eaa8342f124a47ab410bca56627d3f21aa4f33b43aeeb8f21c0a977f"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "e45e753ae402d4f9763ead9c2075c3f5ca3ac673d9454f8387154580d956db6ebab68e139424fbe8b61fd1d4362c67f82d0ade1b4888230f37bd61e81c380dae"
+          "content" : "2db7e87b2fa797170b289dda44680c4a7ce14b8c72b2934fb49320efd9c708822dfa4822dbe817a03517123bc2c35b401fd444f877e4cebf596a6c41e85ded11"
         }
       ],
       "licenses" : [
@@ -195,7 +195,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/net.sourceforge.pmd/pmd-core@7.2.0?type=jar",
+      "purl" : "pkg:maven/net.sourceforge.pmd/pmd-core@7.5.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -223,7 +223,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/net.sourceforge.pmd/pmd-core@7.2.0?type=jar"
+      "bom-ref" : "pkg:maven/net.sourceforge.pmd/pmd-core@7.5.0?type=jar"
     },
     {
       "publisher" : "QOS.ch",
@@ -506,41 +506,41 @@
       "publisher" : "OW2",
       "group" : "org.ow2.asm",
       "name" : "asm",
-      "version" : "9.6",
+      "version" : "9.7",
       "description" : "ASM, a very small and fast Java bytecode manipulation framework",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "6f8bccf756f170d4185bb24c8c2d2020"
+          "content" : "3957b18bf02a62edcb6726d074b90b08"
         },
         {
           "alg" : "SHA-1",
-          "content" : "aa205cf0a06dbd8e04ece91c0b37c3f5d567546a"
+          "content" : "073d7b3086e14beb604ced229c302feff6449723"
         },
         {
           "alg" : "SHA-256",
-          "content" : "3c6fac2424db3d4a853b669f4e3d1d9c3c552235e19a319673f887083c2303a1"
+          "content" : "adf46d5e34940bdf148ecdd26a9ee8eea94496a72034ff7141066b3eea5c4e9d"
         },
         {
           "alg" : "SHA-512",
-          "content" : "01a5ea6f5b43bf094c52a50e18325a60af7bb02e74d24f9bc2c727d43e514578fd968b30ff22f9d2720caec071458f9ff82d11a21fbb1ebc42d8203e737c4b52"
+          "content" : "ada37fcc95884a4d2cbc64495f5f67556c847e7724e26ccfbb15cc42a476436fa54b5d4fd4d9ed340241d848999d415e1cff07045d9e97d451c16aeed4911045"
         },
         {
           "alg" : "SHA-384",
-          "content" : "80e0a92442db343baea7bab9bb1d0b7037c98d6aa54172820b21ea45e51dfea42b7670aa39e938d0f88ad4466004a19a"
+          "content" : "b34c6230cd1c46e34067ae8429f72c7e031a1c0fc75b93ef6accf18fd5fe6a74c3659160b3199652d88bd916cbd63d4a"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "98a43a49425054d14574e75aa034e3758b8f0ac382c705773cd80be4065df6b198ba106f443d1d389a8d2a027586f122"
+          "content" : "9a89b843fededac03bb2448087468814e1214c3de8e754a3456b8b6f518fff1db41b2e787a0a255b6d2a99906f3d2890"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "df966c1a8edf2f5dc378e60468399b60d9d27481241462b75a61033b06f95578"
+          "content" : "a8377efe9c0ccba595a223feb3a90bbfcb0a3f9b1ac30975abf1f2493d864f50"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "5f2cfa6ca6e369f5e94861652da88c12c0554ea4aa0c8472393011aacadeda2309d00d9817417debac5d1c4e01bb9584cb9c438eff63bd10ed89666bb9cffed7"
+          "content" : "aeb8e1002420c8998b59c44c27574205a55730e7f8e299b88e730bb187d9fff3723347441f0e1adebb12839e1bd7c418ea1275b81c12a2cdb510faac76fc5369"
         }
       ],
       "licenses" : [
@@ -551,7 +551,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.ow2.asm/asm@9.6?type=jar",
+      "purl" : "pkg:maven/org.ow2.asm/asm@9.7?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -575,7 +575,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.ow2.asm/asm@9.6?type=jar"
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm@9.7?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
@@ -721,41 +721,41 @@
       "publisher" : "Saxonica",
       "group" : "net.sf.saxon",
       "name" : "Saxon-HE",
-      "version" : "12.4",
+      "version" : "12.5",
       "description" : "The XSLT and XQuery Processor",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "b6319126413fa812ab937cdfac1e162c"
+          "content" : "39b53a0dcd01522e79223e2506061d44"
         },
         {
           "alg" : "SHA-1",
-          "content" : "b532e44a8bf4007bbce69467801778a955599c52"
+          "content" : "57c007520e2879387b8d13d0a512e9566eeffa73"
         },
         {
           "alg" : "SHA-256",
-          "content" : "575f8b696e3b6f9aa7a3bf01611b8bf1b84576b55ce29bc16656a53a147ef441"
+          "content" : "98c3a91e6e5aaf9b3e2b37601e04b214a6e67098493cdd8232fcb705fddcb674"
         },
         {
           "alg" : "SHA-512",
-          "content" : "e8197cefefbe4abf54954fbbb931b90455f77e04048030d3101a9ef62e375fce1cd137e792a9f82df532ff8647d0301bc8bdc26a247552dd9546728f07cea55c"
+          "content" : "f8385b52b9de03bbbcfd9900b78d7e1b544102900316d8d95b5f36b75b6f8f492cee7a1ecf737bd0b4caf85d79c003996f83ac156739d60e4d41edd5ef43a182"
         },
         {
           "alg" : "SHA-384",
-          "content" : "c7f640c2149fcedaa3eeb58cbb739c823a202c883ba1d44a02b3487ea0b28d9efa4c89af38fe8055fd06f9551b634cc7"
+          "content" : "1e08a834684848bfb6c8029b98d2c8f5634acba483c6cd783aa753a15551c48e32fe718c72abdbb1114bab6e8cbf654d"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "41939b8c61e2b21e5eb4c32abbf1d3fa92af77e9d36ddcdd9494bc7f1f5f152a4cd3aabbe924bb963931f6d34c397066"
+          "content" : "89a7d4688edba721f2960ed5a1d572cf9cf83b6d3d71987ef9b8d4a1b00fbcb47f7f6469d8d14cae2ea3eb8b63841a4d"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "5c0aa91a28cf69c92543b501cd2be81ba1063f367a58a9d4b307fd73aae5d4e2"
+          "content" : "b963a7cb8580e362ee06b8fbd395016900a9842fa03f6f38106544259ebfc464"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "9a4c797666ea19d76fe482d6f2f014ff63cf91963f63b9f9386960f65e57e66b9bc8586d7ce0b335bd6c884f46050b708614a25f69862fb21ee6637ddde6560c"
+          "content" : "f47e8e8922b657d8190b391178fc86b4808b0c1d40cdc4de8231cefd619d645de971d9b0e33c8da8c25de5cb4f558861cbed77839dd619f4f4f4317378cbdb3d"
         }
       ],
       "licenses" : [
@@ -766,7 +766,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/net.sf.saxon/Saxon-HE@12.4?type=jar",
+      "purl" : "pkg:maven/net.sf.saxon/Saxon-HE@12.5?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -778,7 +778,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/net.sf.saxon/Saxon-HE@12.4?type=jar"
+      "bom-ref" : "pkg:maven/net.sf.saxon/Saxon-HE@12.5?type=jar"
     },
     {
       "group" : "org.xmlresolver",
@@ -1205,41 +1205,41 @@
     {
       "group" : "org.pcollections",
       "name" : "pcollections",
-      "version" : "3.2.0",
+      "version" : "4.0.2",
       "description" : "A Persistent Java Collections Library",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "a00862c61fa635831a526e16dad46fe7"
+          "content" : "3bc80c4568bb9766e119df617ef8b553"
         },
         {
           "alg" : "SHA-1",
-          "content" : "b64e12b258ebfbf6e3f43157ef70c3ec420fec33"
+          "content" : "c8398b4443deae11e6eaffbc04a371b4eb8f6b8e"
         },
         {
           "alg" : "SHA-256",
-          "content" : "6c1447309cd47560924dbf4939b37756c53b15febc0191ec52d6e0b53b6cc62a"
+          "content" : "2bbeef5797a241300c4f7513cd546239629ed7deda4fc0c31df90bb95f5f13ef"
         },
         {
           "alg" : "SHA-512",
-          "content" : "4135a36c3c298c88df6195e7282670eada3132c4e86b927f3ec7faafe2f2ef0cd6a5866e9dcf0e5538c1b9f46aeb62d9a0e756bfaa386c986642d4a40c393ee2"
+          "content" : "b1c87f1569c61b079fb50bf4cb0e885aefde3138ab8f1777386aa47652bf9ed359e4437ecff3c6f09e7974c10af88b6c27baaa147b95e1fd69b3fdf3fdbd4da5"
         },
         {
           "alg" : "SHA-384",
-          "content" : "06dd5c4298c66330b45a1600514f01c6147c3808a8b7d7240790d600e558988f869078765cd0c7e010599d7159a53064"
+          "content" : "a9a0266da1d32de32547431c6f1a629d697f5330a1cb85485b698958d1b5861797cc8037b8dd9cfb6979b52e51b8aede"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "a337211f9b9b36b5a869656a69baf570a5488f9148efc75005bdb68b9f95e657fe35f838dd6d3d93e170851e8f51dc19"
+          "content" : "7971fad6691a1b90eb2729119582ee638b58a70f11c3232bd277183ce675e4c70dae63a0ba56982c87efc0bc3c2ea338"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "146a9d35a644d5d9853feb2b84ed58269c21f5546a01a58b5aa6775cdb46e46e"
+          "content" : "338d7fdf8c11b4fc538c05420fb2c6426dab2209e2b1e2a20f1549277f4a4a4f"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "3139a3075c6513038973ac7e88f25f9739e7adfdfce1b5244d1454f5f672db7285fe55a713e15aa7e1f6b88e1066c459819dbcca78c0d85a7ba9ad495e298e9e"
+          "content" : "5722d084f2f3aaa11147ce496c548647555669895d8f456d501a07ba0027a86eea44335c906efcd7a035b7a9ecc1ffe55963023b3581f3005b8acf81f7c9c7fa"
         }
       ],
       "licenses" : [
@@ -1249,7 +1249,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.pcollections/pcollections@3.2.0?type=jar",
+      "purl" : "pkg:maven/org.pcollections/pcollections@4.0.2?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1261,47 +1261,47 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.pcollections/pcollections@3.2.0?type=jar"
+      "bom-ref" : "pkg:maven/org.pcollections/pcollections@4.0.2?type=jar"
     },
     {
       "publisher" : "PMD",
       "group" : "net.sourceforge.pmd",
       "name" : "pmd-cli",
-      "version" : "7.2.0",
+      "version" : "7.5.0",
       "description" : "PMD is an extensible multilanguage static code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It's mainly concerned with Java and Apex, but supports 16 other languages. It comes with 400+ built-in rules. It can be extended with custom rules. It uses JavaCC and Antlr to parse source files into abstract syntax trees (AST) and runs rules against them to find violations. Rules can be written in Java or using a XPath query. Currently, PMD supports Java, JavaScript, Salesforce.com Apex and Visualforce, Kotlin, Swift, Modelica, PLSQL, Apache Velocity, JSP, WSDL, Maven POM, HTML, XML and XSL. Scala is supported, but there are currently no Scala rules available. Additionally, it includes CPD, the copy-paste-detector. CPD finds duplicated code in Coco, C/C++, C#, Dart, Fortran, Gherkin, Go, Groovy, HTML, Java, JavaScript, JSP, Julia, Kotlin, Lua, Matlab, Modelica, Objective-C, Perl, PHP, PLSQL, Python, Ruby, Salesforce.com Apex and Visualforce, Scala, Swift, T-SQL, Typescript, Apache Velocity, WSDL, XML and XSL.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "83c250958369513b37510a34aa4db3d4"
+          "content" : "d0a3d0f26466e2d4819353229ec0aa84"
         },
         {
           "alg" : "SHA-1",
-          "content" : "253d47ea4481926fd76f8c65e3f98bdb248b45db"
+          "content" : "04c948452e55b775331061dfffe60c0c87db19be"
         },
         {
           "alg" : "SHA-256",
-          "content" : "26746cdd1bbb9d1c52e49bc4c16683d84d1bf47da041d1268b5f049a49be9469"
+          "content" : "1bfaf663ca6eec9fbe606155b73ade39b9d9f872aff0e9741c640351f958a3a1"
         },
         {
           "alg" : "SHA-512",
-          "content" : "43344a4cf5f8762cd9e8d6ec6b7b1bb6177e6f46e1a1875b48f3f38102bf820efc9f78c0fceab46be6df878a22e1e8b857e0d2887daafa6e93581c8ca96c1293"
+          "content" : "65f13e66d5dd9d300e9394bfcd80e9f61ae1b2aa7c0c3a9a78dc0487d20916a7b696c4f650c4f337bdbbdedde240d592f7c35916a2efa2212b4969943244c55f"
         },
         {
           "alg" : "SHA-384",
-          "content" : "7c6b3e164ed705b6c3e8aa3fbd050fe7e4b4041406b4df14a3df0d2fca560642192485ba4b7e162857f1c5f25abb9612"
+          "content" : "8c069b34e42003220512666976d9eec6ef0ab01be4b30bb11f2657c24c520ef367fbd040e05d293f9012ae92a8985c56"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "f6e28108be8860b183897dd8fcf2165ff1469a927395483d3f57117c6a98f64e653d45f201a851c311428ff55ae60755"
+          "content" : "84785b5d6db1d236e62733a6a20226bcc48955016f6c2941eea96718e34262d59418c36a874ca4ae797ed587b3c45728"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "84b0efdf99148cdf41c8fa136820837629bf39bd63ac80d14f59305c96bc746d"
+          "content" : "e07942aa3dcac5671a8288ede6d6be9f21fbf24371ddcb4af00dc0e2c9bbfcf6"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "40220392681b75649001fc4db796b4560020db845db52b6b1374fd11db89da4eff4d5c0faa1b20c1ff09c2de878498c298409e439350c76595d66e5a83fec3a6"
+          "content" : "b207863561d85bde7c833f2926b674946cfd7b335093296ec92f65e0e062ad3bfd9fd9d72898a1903cfb5d00a188a27f4d612fb1b93f69a19abccc27ff4f4bd3"
         }
       ],
       "licenses" : [
@@ -1312,7 +1312,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/net.sourceforge.pmd/pmd-cli@7.2.0?type=jar",
+      "purl" : "pkg:maven/net.sourceforge.pmd/pmd-cli@7.5.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1340,7 +1340,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/net.sourceforge.pmd/pmd-cli@7.2.0?type=jar"
+      "bom-ref" : "pkg:maven/net.sourceforge.pmd/pmd-cli@7.5.0?type=jar"
     },
     {
       "publisher" : "QOS.ch",
@@ -1681,33 +1681,33 @@
     {
       "ref" : "pkg:maven/net.sourceforge.pmd.examples/pmd-java-dist@1.0.0-SNAPSHOT?type=pom",
       "dependsOn" : [
-        "pkg:maven/net.sourceforge.pmd/pmd-java@7.2.0?type=jar",
-        "pkg:maven/net.sourceforge.pmd/pmd-cli@7.2.0?type=jar"
+        "pkg:maven/net.sourceforge.pmd/pmd-java@7.5.0?type=jar",
+        "pkg:maven/net.sourceforge.pmd/pmd-cli@7.5.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/net.sourceforge.pmd/pmd-java@7.2.0?type=jar",
+      "ref" : "pkg:maven/net.sourceforge.pmd/pmd-java@7.5.0?type=jar",
       "dependsOn" : [
-        "pkg:maven/net.sourceforge.pmd/pmd-core@7.2.0?type=jar",
-        "pkg:maven/org.ow2.asm/asm@9.6?type=jar",
+        "pkg:maven/net.sourceforge.pmd/pmd-core@7.5.0?type=jar",
+        "pkg:maven/org.ow2.asm/asm@9.7?type=jar",
         "pkg:maven/org.apache.commons/commons-lang3@3.14.0?type=jar",
         "pkg:maven/org.checkerframework/checker-qual@2.11.1?type=jar",
-        "pkg:maven/net.sf.saxon/Saxon-HE@12.4?type=jar",
-        "pkg:maven/org.pcollections/pcollections@3.2.0?type=jar"
+        "pkg:maven/net.sf.saxon/Saxon-HE@12.5?type=jar",
+        "pkg:maven/org.pcollections/pcollections@4.0.2?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/net.sourceforge.pmd/pmd-core@7.2.0?type=jar",
+      "ref" : "pkg:maven/net.sourceforge.pmd/pmd-core@7.5.0?type=jar",
       "dependsOn" : [
         "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
         "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar",
         "pkg:maven/org.antlr/antlr4-runtime@4.9.3?type=jar",
-        "pkg:maven/net.sf.saxon/Saxon-HE@12.4?type=jar",
+        "pkg:maven/net.sf.saxon/Saxon-HE@12.5?type=jar",
         "pkg:maven/org.apache.commons/commons-lang3@3.14.0?type=jar",
-        "pkg:maven/org.ow2.asm/asm@9.6?type=jar",
+        "pkg:maven/org.ow2.asm/asm@9.7?type=jar",
         "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar",
         "pkg:maven/org.checkerframework/checker-qual@2.11.1?type=jar",
-        "pkg:maven/org.pcollections/pcollections@3.2.0?type=jar",
+        "pkg:maven/org.pcollections/pcollections@4.0.2?type=jar",
         "pkg:maven/com.github.oowekyala.ooxml/nice-xml-messages@3.1?type=jar"
       ]
     },
@@ -1726,7 +1726,7 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/net.sf.saxon/Saxon-HE@12.4?type=jar",
+      "ref" : "pkg:maven/net.sf.saxon/Saxon-HE@12.5?type=jar",
       "dependsOn" : [
         "pkg:maven/org.xmlresolver/xmlresolver@5.2.2?type=jar",
         "pkg:maven/org.xmlresolver/xmlresolver@5.2.2?classifier=data&type=jar"
@@ -1774,7 +1774,7 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.ow2.asm/asm@9.6?type=jar",
+      "ref" : "pkg:maven/org.ow2.asm/asm@9.7?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -1786,7 +1786,7 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.pcollections/pcollections@3.2.0?type=jar",
+      "ref" : "pkg:maven/org.pcollections/pcollections@4.0.2?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -1794,9 +1794,9 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/net.sourceforge.pmd/pmd-cli@7.2.0?type=jar",
+      "ref" : "pkg:maven/net.sourceforge.pmd/pmd-cli@7.5.0?type=jar",
       "dependsOn" : [
-        "pkg:maven/net.sourceforge.pmd/pmd-core@7.2.0?type=jar",
+        "pkg:maven/net.sourceforge.pmd/pmd-core@7.5.0?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
         "pkg:maven/org.slf4j/slf4j-simple@1.7.36?type=jar",
         "pkg:maven/info.picocli/picocli@4.7.5?type=jar",
